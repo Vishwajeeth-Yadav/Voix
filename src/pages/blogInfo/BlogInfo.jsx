@@ -140,7 +140,7 @@ function BlogInfo() {
                         className={`[&> h1]:text-[32px] [&>h1]:font-bold  [&>h1]:mb-2.5
                           ${mode === 'dark' ? '[&>h1]:text-[#ff4d4d]' : '[&>h1]:text-black'}
                           [&>p]:text-[16px] [&>p]:mb-1.5
-                          ${mode === 'dark' ? '[&>p]:text-[#7efff5]' : '[&>p]:text-black'}
+                          ${mode === 'dark' ? '[&>p]:text-[#7efff5]' : '[&>p]:text-gray-800'}
                           [&>img]:rounded-lg`}
                         dangerouslySetInnerHTML={createMarkup(blogPost.content)}
                       ></div>

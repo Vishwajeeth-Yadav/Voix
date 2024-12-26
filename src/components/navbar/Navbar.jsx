@@ -361,7 +361,7 @@ export default function Nav() {
             className="sticky inset-0 z-20 h-max max-w-full border-none rounded-none py-2 px-4 lg:px-8 lg:py-2 backdrop-blur-sm"
             style={{
                 background: mode === 'dark'
-                    ? 'rgba(17, 25, 40, 0.75)'
+                    ? 'rgba(10, 25, 40, 0.75)'
                     : 'rgba(255, 255,255, 0.75)',
                 borderBottom: `1px solid ${mode === 'dark' ? 'rgba(255, 255, 255, 0.1)' : 'rgba(0, 0, 0, 0.1)'}`,
             }}
@@ -435,7 +435,7 @@ export default function Nav() {
                         <motion.div whileHover={{ scale: 1.1 }}>
                             <IconButton
                                 onClick={toggleMode}
-                                className={`rounded-full border  ${mode==='dark'?'bg-blue-700 text-white/80 border-white' : 'bg-orange-600 text-red-900 border-red-800'} transition-colors ease-in-out duration-300`}
+                                className={`rounded-full border  ${mode==='dark'?'bg-blue-700 text-white/80 border-white' : 'bg-orange-500 text-black border-red-800'} transition-colors ease-in-out duration-300`}
                             >
                                 {mode === 'light' ? (
                                     <FiSun className="h-5 w-5" />
